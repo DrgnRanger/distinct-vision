@@ -25,4 +25,7 @@
     "minimum": "12",
     "verified": "12"
   }
+  "url": "https://github.com/DrgnRanger/distinct-vision",
+  "manifest": "https://github.com/DrgnRanger/distinct-vision/blob/main/module.json",
+  "download": ""
 }
