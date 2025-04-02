@@ -1,0 +1,28 @@
+{
+  "id": "distinct-vision",
+  "title": "Distinct Vision",
+  "version": "1.0.0",
+  "description": "A module about allowing specific players to see specific monsters, this is a terrible module, but it works.",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Jarofrods"
+    }
+  ],
+  "scripts" : [
+    "scripts/distinct-vision.js"
+  ],
+  "styles": [
+    "styles/distinct-vision.css"
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  }
+}
