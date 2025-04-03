@@ -2,10 +2,10 @@
   "id": "distinct-vision",
   "title": "Distinct Vision",
   "version": "1.0.0",
+  "manifest": "https://github.com/DrgnRanger/distinct-vision/releases/download/Initial/module.json",
+  "download": "https://github.com/DrgnRanger/distinct-vision/archive/refs/tags/Initial.zip",
   "description": "A module about allowing specific players to see specific monsters, this is a terrible module, but it works.",
   "url": "https://github.com/DrgnRanger/distinct-vision",
-  "manifest": "https://github.com/DrgnRanger/distinct-vision/releases/download/Initial/module.json",
-  "download": "https://github.com/DrgnRanger/distinct-vision/archive/refs/tags/Initial.zip"
   "languages": [
     {
       "lang": "en",
