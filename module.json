@@ -26,6 +26,6 @@
     "verified": "12"
   }
   "url": "https://github.com/DrgnRanger/distinct-vision",
-  "manifest": "https://github.com/DrgnRanger/distinct-vision/blob/main/module.json",
+  "manifest": "https://github.com/DrgnRanger/distinct-vision/releases/latest/download/module.json",
   "download": "https://github.com/DrgnRanger/distinct-vision/archive/refs/tags/Initial.zip"
 }
