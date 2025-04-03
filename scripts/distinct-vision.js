@@ -145,7 +145,7 @@ Hooks.on("ready", function() {
     CONFIG.Canvas.detectionModes.darkvision = new class DetectionModeDarkvision extends (foundry.canvas?.perception?.DetectionMode ?? DetectionMode) {
         constructor() {
             super({
-                id: "basicSight",
+                id: "darkvision",
                 label: "DND5E.SenseDarkvision",
                 type: DetectionMode.DETECTION_TYPES.SIGHT,
                 priority: 7,
@@ -301,4 +301,25 @@ Hooks.on("ready", function() {
         }
     
     }
+    
+
+  });
+
+Hooks.on("refreshToken", (token) => {
+    if (canvas.tokens.highlightObjects) return;
+    
+    for (const fx of token.effects.children) {
+        if (fx === token.effects.overlay) continue; // Skip base overlay
+       
+        for (x of token.actor.appliedEffects) {
+            console.log(x)
+            if (x.name == "Z1 Hidden Group One"
+                || x.name == "Z2 Hidden Group Two"
+                || x.name == "Z3 Hidden Group Three"
+                || x.name == "Z4 Hidden Group Four"
+                || x.name == "Z5 Hidden Group Five"
+                || x.name == "Z6 Hidden Group Six"
+            ) fx.visible = false;
+        }
+    }  
   });
